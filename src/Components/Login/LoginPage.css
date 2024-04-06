@@ -1,0 +1,62 @@
+.HomePage {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  
+     /* Adjust this as needed */
+  }
+  
+
+  
+   .Onright {
+    height: 100vh;
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    background-color: #fdfdfd; /* Example background color */
+  }
+  
+  /* Add styling for your logo and login boxes as needed */
+  .input-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  }
+
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+   
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    border: 3px solid #000000;
+    border-radius: 12px;
+    background-color: azure;
+    color: #000000;
+    font-size: medium;
+  }
+
+  .Submit{
+    border-radius: 12px;
+    width: 220px;
+    height: 35px;
+    background-color: rgb(39, 171, 39);
+  }
+  .Submitbtn{
+ padding: 50px;
+ margin-left: 20px;
+ 
+
+  }
+  .Submit:hover{
+    transform: scale(1.3);
+   
+  }
