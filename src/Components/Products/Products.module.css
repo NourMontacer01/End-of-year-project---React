@@ -1,0 +1,162 @@
+body {
+    
+    overflow-y: scroll !important;
+    padding: 0;
+    background-color: #ededed;
+    color: #060606;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+.leftpart{
+    margin: 50px;
+    flex: 3;
+}
+
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-icon {
+    padding: 10px;
+  }
+  
+  .searchbar input[type="search"] {
+    flex: 1;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17l4 4m0 0l4-4m-4 4V3"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 24px;
+    padding-left: 40px; /* adjust according to the icon size */
+  }
+  
+  .searchbar button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    height: 48px;
+  }
+  
+  .searchbar button:hover {
+    background-color: #45a049;
+  }
+  
+  
+
+.rightpart{
+    margin-left: 300px;
+    flex: 5;
+}
+
+.searchbar{
+    text-align: center;
+}
+
+.searchbar button{
+    color: white;
+    margin: 20px;
+    background-color: rgb(46, 201, 46);
+}
+.cardscontainerr{
+    margin: 50px;
+    display: grid ;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards in a row */
+    gap: 20px; /* Space between cards */
+}
+
+
+.Submit{
+  margin-left:200px !important;
+  border-radius: 12px;
+  width: 220px;
+  height: 45px;
+  background-color: rgb(55, 157, 55);
+  margin: 20px;
+  color: white;
+}
+.Buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.Submit:hover{
+  transform: scale(1.1);
+  background-color: #05d10f;
+ 
+}
+
+.Delete{
+  border-radius: 12px;
+  width: 220px;
+  height: 35px;
+  background-color: rgb(228, 13, 13);
+  margin: 20px;
+
+}
+
+.Delete:hover{
+  transform: scale(1.1);
+ 
+}
+
+
+
+
+/* Media Queries for iPad */
+@media only screen and (max-width: 1024px) {
+    .leftpart,
+    .rightpart {
+      margin: 0;
+      width: 100%;
+    }
+  
+    .leftpart {
+      order: 2;
+    }
+  
+    .rightpart {
+      order: 1;
+    }
+  
+    .cardscontainerr {
+      margin: 20px;
+    }
+  }
+
+  
+  /* Media Queries for Smartphone */
+  @media only screen and (max-width: 480px) {
+    .leftpart,
+    .rightpart {
+      margin: 0;
+      width: 100%;
+    }
+  
+    .leftpart {
+      order: 2;
+    }
+  
+    .rightpart {
+      order: 1;
+    }
+  
+    .cardscontainerr {
+      margin: 10px;
+    }
+  }
+
+  

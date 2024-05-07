@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(210, 237, 255);
+
+}
+.main{
+    margin-left: 280px;
+    margin-top: 15px;
+    display: flex;
+    width: 125%;
+    height: 95vh;
+    border: solid 2px black;
+}
+
+.Right{
+background-color: rgb(198, 198, 198);
+flex: 3;
+    border: solid 2px black;
+    margin-left: 4px;
+    padding: 5px;
+
+}
+
+.Left{
+    background-color: rgb(198, 198, 198);
+    border: solid 2px black;
+
+    flex: 2;
+    
+}
+
+.numbers{
+    background-color: rgb(198, 198, 198);
+    height: 50vh;
+    width: 88%;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.products{
+    height: 35vh;
+    background-color: rgb(198, 198, 198);
+    border: solid 2px black;
+    border-radius: 12px;
+    margin-top: 5px;
+    width: 88%;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px; /* Adjust the gap between buttons */
+
+
+}
+.numticket{
+    height: 8%;
+    margin-bottom: -18px;
+
+}
+.ticket{
+    border: solid 2px black;
+    height:60%;
+    width: 90%;
+    margin-left: 33px;
+    background-color: white;
+    
+}
+
+.billsection{
+    background-color: rgb(198, 198, 198);
+    height:68%;
+    font-size: 05px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+.bill{
+    border: solid 2px black;
+    height: 90%;
+    width: 90%;
+    margin-left: 33px;
+    background-color: white;
+    
+}
+
+.total{
+    height: 15vh;
+    background-color: rgb(198, 198, 198);
+    font-size: 40px;
+    color: rgb(10, 10, 10);
+    text-align: left;
+}
+.totall{
+    border: solid 2px black;
+    height: 90%;
+    width: 90%;
+    margin-left: 33px;
+    background-color: white;
+    
+}
+.total p {
+    margin-left: 20px;
+    margin-top:0px;
+}
+
+.numberpad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; /* Adjust the gap between buttons */
+  }
+  
+  .numberpad button {
+    width: 75%;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: #fff5db; /* Background color of the buttons */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Border radius */
+    cursor: pointer;
+  }
+  
+  .numberpad button:hover {
+    background-color: #000000; /* Background color on hover */
+    color: aliceblue;
+  }
+  
+  .numberpad button:focus {
+    outline: none; /* Remove default focus outline */
+  }
+  
+  .calculator {
+    /* Add any additional styles for the calculator container */
+  }
+  
+.icon{
+    width: 20%;
+    height: 20%;
+    
+    background-color: white;
+    color: rgb(5, 127, 30);
+    font-size: 20px;
+  }
+
+  .icon:hover{
+    background-color: rgb(5, 127, 30);
+    color: yellow;
+  }
+
+  .iconundo{
+    background-color: red;
+    color: whitesmoke;
+    font-size:20px;
+    width: 20%;
+    height: 20%;
+  }

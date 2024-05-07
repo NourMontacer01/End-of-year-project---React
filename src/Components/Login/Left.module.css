@@ -2,6 +2,7 @@
   overflow: hidden;
   display: flex;
   width: 100%;
+  height:102vh;
   justify-content: center;
   align-items: center;
   background-color: #00A3FF; /* Example background color */
@@ -29,4 +30,19 @@
   color: #000000;
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Account img{
+  width: 70%;
+}
+.UserName{
+  font-size: small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Account {
+  display: block;
+  width: 58px;
+  height: 58px;
+  transform: translate(-10px, -300px); /* Moves the element 50 pixels to the right along the X-axis and 50 pixels down along the Y-axis */
+
 }

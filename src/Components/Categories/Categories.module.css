@@ -1,0 +1,24 @@
+/* Categories.module.css */
+.containerr{
+    margin-left: 250px;
+}
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to next row when there's no space */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+  }
+  
+  h1 {
+    width: 100%; /* Ensure the heading spans the full width */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .singleCategory {
+    width: calc(33.33% - 20px); /* Three items in a row with margin between them */
+    margin-bottom: 20px;
+  }
+  

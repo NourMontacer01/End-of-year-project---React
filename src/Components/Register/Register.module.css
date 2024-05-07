@@ -1,0 +1,78 @@
+.Register {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    
+       /* Adjust this as needed */
+    }
+    
+  
+    
+     .Onright {
+      height: 100vh;
+      display: flex;
+      width: 870px;
+      justify-content: center;
+      align-items: center;
+      color:black;
+      background-color: #fdfdfd; /* Example background color */
+    }
+    
+    /* Add styling for your logo and login boxes as needed */
+    .input-container {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 30px !;
+    
+    }
+  
+    label {
+      margin-bottom: 3px;
+      margin-top: 20px;
+      font-weight: bold;
+     
+    }
+    
+    input {
+      padding: 10px;
+      width: 100%;
+      border: 3px solid #000000;
+      border-radius: 12px;
+      background-color: azure;
+      color: #000000;
+      font-size: medium;
+     
+    }
+  
+    .Submit{
+      border-radius: 12px;
+      width: 300px;
+      height: 35px;
+      background-color: rgb(39, 171, 39);
+      margin: 30px !important;
+    }
+    .Cancel{
+      border-radius: 12px;
+      width: 300px;
+      height: 35px;
+      background-color: rgb(177, 37, 22);
+      margin: 30px !important;
+    }
+    .Cancel:hover{
+      transform: scale(1.1);
+      background-color: rgb(255, 0, 0);
+
+     
+    }
+    
+   
+    .Submit:hover{
+      transform: scale(1.1);
+      background-color: rgb(22, 224, 22);
+
+     
+    }
+   

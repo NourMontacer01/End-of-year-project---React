@@ -1,0 +1,30 @@
+.cardee {
+   width: 700px;
+   height: 500px;
+
+   margin-left: 150px;
+   border: solid 2px black;
+   border-radius: 12px;
+   
+   text-align: center;
+   
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    text-emphasis: center;
+    display: flex;
+   
+  
+    
+}
+
+.lefte{
+    width: 150px;
+    height: 100vh;
+}
+.imgee{
+    margin: 30px;
+    height: 150px;
+    width: 200px ;
+}

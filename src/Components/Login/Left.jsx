@@ -1,7 +1,7 @@
 
-import './Left.css'
+import left from './Left.module.css'
 import AppLogo from '../../assets/fruit-shop.svg'
-import './LoginPage.css'
+import './LoginPage.module.css'
 
 
 
@@ -17,8 +17,8 @@ import './LoginPage.css'
 
     return (
         <div>
-              <div className='Onleft'>
-                <div className='Logo'>    
+              <div className={left.Onleft}>
+                <div className={left.Logo}>    
                     <img src={AppLogo} alt="logo" />
                     <h1>RetailPro</h1>
                     <p>Where Every Transaction Sparks Joy!</p>

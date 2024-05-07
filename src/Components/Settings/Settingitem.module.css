@@ -1,0 +1,22 @@
+.border{
+    border: solid 2px #000000;
+    border-radius: 30px;
+    
+    width: 100px;
+    height: 100px;
+    background-color: rgb(242, 242, 182);
+    
+}
+
+.img{
+  
+  height: 90px;
+  width: 90px;
+  border-radius: 50px;
+  padding: 0px;
+    
+}
+
+.settingitem{
+text-align: center;
+}

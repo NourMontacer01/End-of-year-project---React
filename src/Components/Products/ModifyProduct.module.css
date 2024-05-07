@@ -1,0 +1,42 @@
+.Edit{
+    background-color: rgb(213, 152, 10);
+    border-radius: 12px;
+    width: 220px;
+    height: 35px;
+    margin: 10px;
+}
+
+.Edit:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 192, 46);
+
+  }
+
+  .Delete{
+    background-color: rgb(216, 27, 27);
+    border-radius: 12px;
+    width: 220px;
+    height: 35px;
+    margin: 10px;
+}
+
+.Delete:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 48, 48);
+
+  }
+
+.buttonss{
+    text-align: center;
+    justify-content: space-between;
+  }
+
+.righte{
+    width: 800px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.editcontainer{
+    text-align: center;
+}

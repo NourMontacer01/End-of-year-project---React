@@ -1,0 +1,81 @@
+.mainn{
+    display: flex;
+   
+    
+}
+
+.lefte{
+  
+    height: 100vh;
+}
+
+.righte{
+    
+    
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    
+
+    
+}
+
+.addcontainer{
+    height: 90%;
+    width:800px;
+    margin-left: 220px;
+    justify-content: center;
+    text-align: center;
+}
+
+.Submit:hover{
+background-color: rgb(44, 217, 44);
+
+}
+
+.Delete:hover{
+    background-color: rgb(248, 6, 6);
+}
+
+
+
+
+.Submit{
+    background-color: rgb(34, 156, 18);
+    border-radius: 12px;
+    width: 220px;
+    height: 35px;
+    margin: 10px;
+    color: white ;
+
+}
+
+.Submit:hover{
+    transform: scale(1.1);
+    background-color: rgb(32, 217, 8);
+
+  }
+
+  .Delete{
+    background-color: rgb(216, 27, 27);
+    border-radius: 12px;
+    width: 220px;
+    height: 35px;
+    margin: 10px;
+    color: white ;
+
+}
+
+.Delete:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 48, 48);
+
+  }
+
+.buttonss{
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+  }
+

@@ -1,6 +1,6 @@
 
 
-function Button(props) {
+function Buttons(props) {
     return (
         <div>
             <button>{props.name}</button>
@@ -8,4 +8,4 @@ function Button(props) {
     );
 }
 
-export default Button;
+export default Buttons;

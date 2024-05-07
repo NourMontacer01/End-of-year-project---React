@@ -1,0 +1,130 @@
+.righte{
+  margin-top: 70px;
+    margin-left: 400px;
+    justify-content: center;
+    text-align: center;
+}
+.searchbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 170%;
+  }
+  
+  .search-icon {
+    padding: 10px;
+  }
+  
+  .searchbar input[type="search"] {
+    flex: 1;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17l4 4m0 0l4-4m-4 4V3"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 24px;
+    padding-left: 40px; /* adjust according to the icon size */
+  }
+  
+  .searchbar button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    height: 48px;
+  }
+  
+  .searchbar button:hover {
+    background-color: #45a049;
+  }
+  
+  
+
+
+.table-container {
+    width: 170%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+   
+   
+    
+  }
+  .mainn{
+    justify-content: center;
+    text-align: center;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+
+
+.edit{
+    background-color: rgb(230, 163, 6);
+    border-radius: 50px;
+    width: 40px;
+    margin: 10px;
+}
+
+.clearsolde{
+    background-color: rgb(14, 171, 171);
+    border-radius: 50px;
+    width: 40px;
+    margin: 10px;
+}
+.delete{
+    background-color: rgb(218, 36, 36);
+    border-radius: 50px;
+    width: 40px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: darkgrey;
+    transform: scale(1.1);
+    
+}
+
+.Addcustomer{
+   
+    width: 170%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgb(46, 201, 46);
+    margin-top: 100px;
+    
+}
+.Addcustomer:hover{
+    background-color: rgb(8, 255, 8);
+    transform: scale(01.06);
+
+}
+
+
+.swal-confirm-button {
+    width: 200px !important;  /* Adjust the width as needed */
+  }
+  
+  .swal-cancel-button {
+    width: 200px; /* Adjust the width as needed */
+  }
+  

@@ -1,0 +1,100 @@
+.carde {
+    width: 220px;
+    height: 350px;
+    background-color: #ffffff; /* Updated color */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 50px;
+    margin-top: 80px;
+  }
+  
+  .carde img {
+    width: 70%;
+    height: 150px ;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    
+    
+  }
+
+  .imgeee{
+    justify-content: center;
+    margin: 10px;
+    height: 120px !important;
+  }
+  
+  .containerr {
+    padding: 15px;
+    text-align: center;
+    display: block;
+    
+  }
+  
+  .p {
+    
+    font-size: 1em;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .containerr .Details {
+    background-color: #2ca6cf;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    height: 45px;
+    width: 110px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px !important;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .containerr .Details:hover{
+    background-color:#00dcfe;
+  }
+  
+  
+  .editingbuttons{
+    margin: 20px;
+    display: flex;
+
+   
+  }
+
+  .editingbuttons button{
+    height: 40px;
+    width: 70px;
+    margin: 8px;
+    font-size: 14px !important;
+    border-radius: 25px;
+    
+
+  }
+
+.Edit{
+    background-color: rgb(236, 179, 75);
+    color: #ffffff;
+  }
+  .Edit:hover{
+    background-color: rgb(255, 136, 0);
+  }
+  .Delete{
+    background-color: rgb(237, 71, 71);
+    color: #ffffff;
+  }
+  .Delete:hover{
+    background-color: rgb(255, 0, 0);
+  }
+
+
+
+ 
