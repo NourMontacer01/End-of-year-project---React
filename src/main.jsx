@@ -9,7 +9,8 @@ import Accueil from './Components/Accueil/Accueil.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <authProvider>
     <App />
-
+    </authProvider>
 </React.StrictMode>,
 )

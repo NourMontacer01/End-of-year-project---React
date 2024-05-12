@@ -19,6 +19,7 @@
     "@syncfusion/ej2-react-charts": "^25.1.40",
     "bcrypt": "^5.1.1",
     "bootstrap": "^5.3.3",
+    "firebase": "^10.11.1",
     "jsonwebtoken": "^9.0.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
@@ -27,7 +28,7 @@
     "react-router-dom": "^6.23.0",
     "reactstrap": "^9.2.2",
     "recharts": "^2.12.5",
-    "sweetalert2": "^11.10.8"
+    "sweetalert2": "^11.6.13"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

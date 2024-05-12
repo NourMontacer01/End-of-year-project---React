@@ -1,52 +1,52 @@
-import React, { useState } from 'react';
-
+import React from 'react';
 import login from './LoginPage.module.css';
 import Left from './Left';
+import { doSignInWithEmailAndPassword } from '../../Config/Auth';
+import { useAuth } from '../Contexts/authContext';
+import { Navigate } from 'react-router-dom';
 
-function LoginPage(props) {
-  const [username, setUsername] = useState('');
+function LoginPage() {
+    const { userLoggedIn } = useAuth(); // Ensure useAuth is imported correctly
+  console.log(userLoggedIn)
+  const [isSigningIn, setIsSigningIn] = useState(false);
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
-  const handleUsernameChange = (event) => {
-    setUsername(event.target.value);
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
   };
 
   const handlePasswordChange = (event) => {
     setPassword(event.target.value);
   };
-
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    try {
-      // Compare the entered password with the password provided via props
-      if (password === props.password) {
-        // Passwords match, proceed with login actions
-        console.log('Logged in');
-      } else {
-        // Passwords don't match, throw an error
-        throw new Error('Incorrect password');
-      }
-    } catch (error) {
-      console.error(error);
+ 
+  const handleSignIn = async (e) => {
+    e.preventDefault();
+    if(!isSigningIn){
+      setIsSigningIn(true);
+      await doSignInWithEmailAndPassword(email, password);
+     
     }
   };
-  
 
   return (
-    <div className={login.HomePage}>
+
+    
+
+    <div className={login.HomePage}>    <div className={login.HomePage}>
+      {userLoggedIn && (<Navigate to="/Home" replace={true} />)}
       <div className={login.Onleft}>
         <Left />
       </div>
       <div className={login.Onright}>
-        <form onSubmit={handleSubmit}>
+        <form>
           <div className={login.inputcontainer}>
-            <label htmlFor="username">Username:</label>
+            <label htmlFor="Email">Username:</label>
             <input
-              type="text"
-              id="username"
-              placeholder="Enter your username"
-              value={username}
-              onChange={handleUsernameChange}
+              type="email"
+              id="Email"
+              placeholder="Enter your Email"
+              value={email}
+              onChange={handleEmailChange}
             />
           </div>
           <div className={login.inputcontainer}>
@@ -60,11 +60,13 @@ function LoginPage(props) {
             />
           </div>
           <div className={login.Submitbtn}>
-            <button className={login.Login}>Login</button>
+            <button className={login.Login} onClick={handleSignIn}>Sign Up</button>
           </div>
         </form>
       </div>
     </div>
+    </div>
+
   );
 }
 
